@@ -1,6 +1,8 @@
 import json
 
 input_path = r"your path here"
+
+#output of the new file path location
 output_path = r"new path here"
 
 with open(input_path, "r", encoding="utf-8") as infile, open(output_path, "w", encoding="utf-8") as outfile:
